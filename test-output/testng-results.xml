@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-17T17:50:54 ICT" name="Default suite" finished-at="2023-07-17T17:51:52 ICT" duration-ms="57646">
+    <groups>
+    </groups>
+    <test started-at="2023-07-17T17:50:54 ICT" name="Default test" finished-at="2023-07-17T17:51:52 ICT" duration-ms="57646">
+      <class name="Lab7DemoTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:Lab7DemoTest@581ac8a8]" started-at="2023-07-17T17:50:54 ICT" name="init" finished-at="2023-07-17T17:51:05 ICT" duration-ms="10837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC01_LoginFirstAccount()[pri:0, instance:Lab7DemoTest@581ac8a8]" started-at="2023-07-17T17:51:05 ICT" name="TC01_LoginFirstAccount" finished-at="2023-07-17T17:51:24 ICT" duration-ms="19148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginFirstAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Lab7DemoTest@581ac8a8]" started-at="2023-07-17T17:51:24 ICT" name="takeScreenshot" finished-at="2023-07-17T17:51:25 ICT" duration-ms="1010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=Lab7DemoTest.TC01_LoginFirstAccount()[pri:0, instance:Lab7DemoTest@581ac8a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC02_LoginSecondAccount()[pri:1, instance:Lab7DemoTest@581ac8a8]" started-at="2023-07-17T17:51:25 ICT" name="TC02_LoginSecondAccount" finished-at="2023-07-17T17:51:50 ICT" duration-ms="25109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_LoginSecondAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Lab7DemoTest@581ac8a8]" started-at="2023-07-17T17:51:50 ICT" name="takeScreenshot" finished-at="2023-07-17T17:51:51 ICT" duration-ms="1005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_LoginSecondAccount status=SUCCESS method=Lab7DemoTest.TC02_LoginSecondAccount()[pri:1, instance:Lab7DemoTest@581ac8a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="closeDriverInstance()[pri:0, instance:Lab7DemoTest@581ac8a8]" started-at="2023-07-17T17:51:51 ICT" name="closeDriverInstance" finished-at="2023-07-17T17:51:52 ICT" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- Lab7DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
